@@ -11,7 +11,8 @@ Created on 2014年11月11日
 
 
 from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice, MonkeyImage
-device = MonkeyRunner.waitForConnection(8,'4d00833a528c8057')
+#device = MonkeyRunner.waitForConnection(8,'4d00833a528c8057')          //多机型同时运行
+device = MonkeyRunner.waitForConnection()
 
 
 #keyboards  480x854，需要根据机器分辨率和使用的输入法调节
